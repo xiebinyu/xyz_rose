@@ -49,30 +49,16 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-resources-plugin</artifactId>
-                <configuration>
-                    <encoding>UTF-8</encoding>
-                    <useDefaultDelimiters>true</useDefaultDelimiters>
-                </configuration>
-            </plugin>
+            <!-- 什么意思？-->
+            <!--<plugin>-->
+                <!--<groupId>org.apache.maven.plugins</groupId>-->
+                <!--<artifactId>maven-resources-plugin</artifactId>-->
+                <!--<configuration>-->
+                    <!--<encoding>UTF-8</encoding>-->
+                    <!--<useDefaultDelimiters>true</useDefaultDelimiters>-->
+                <!--</configuration>-->
+            <!--</plugin>-->
         </plugins>
-
-        <!--<resources>-->
-            <!--<resource>-->
-                <!--<directory>src/main/resources</directory>-->
-                <!--<filtering>true</filtering>-->
-            <!--</resource>-->
-            <!--<resource>-->
-                <!--<directory>src/main/webapp</directory>-->
-                <!--&lt;!&ndash;注意此次必须要放在此目录下才能被访问到 &ndash;&gt;-->
-                <!--<targetPath>META-INF/resources</targetPath>-->
-                <!--<includes>-->
-                    <!--<include>**/**</include>-->
-                <!--</includes>-->
-            <!--</resource>-->
-        <!--</resources>-->
 
     </build>
 
