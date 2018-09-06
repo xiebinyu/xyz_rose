@@ -1,0 +1,9 @@
+server.port: 8090
+server.session-timeout: 30
+server.tomcat.uri-encoding: utf-8
+logging.level.root: INFO
+
+#返回的前缀   目录对应src/main/webapp下
+spring.mvc.view.prefix: /
+#返回的后缀
+spring.mvc.view.suffix: .jsp
